@@ -11,6 +11,18 @@ board = [
     "....##############....",
 ]
 
+#add board2
+board2 = [
+    "......................",
+    "......##########......",
+    "......##......##......",
+    "......#.#....###......",
+    "......#..#.....#####..",
+    "....###...#........#..",
+    "....#......#.....###..",
+    "....##############....",
+]
+
 #define the function
 def flood_fill(input_board: List[str], old: str, new: str, x: int, y: int) -> List[str]:
     """Returns board with old values replaced with new values
